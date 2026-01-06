@@ -1,0 +1,18 @@
+current directory: /home/pop/task_manager/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/pop/task_manager/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make -j17 DESTDIR\= sitearchdir\=./.gem.20260106-83631-1p6mzf sitelibdir\=./.gem.20260106-83631-1p6mzf clean
+
+current directory: /home/pop/task_manager/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make -j17 DESTDIR\= sitearchdir\=./.gem.20260106-83631-1p6mzf sitelibdir\=./.gem.20260106-83631-1p6mzf
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/pop/task_manager/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make -j17 DESTDIR\= sitearchdir\=./.gem.20260106-83631-1p6mzf sitelibdir\=./.gem.20260106-83631-1p6mzf install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20260106-83631-1p6mzf/skiptrace/internal
+
+current directory: /home/pop/task_manager/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20260106-83631-1p6mzf sitelibdir\=./.gem.20260106-83631-1p6mzf clean
