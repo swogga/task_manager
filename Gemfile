@@ -44,6 +44,9 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
+  # !!RSpec для тестов!!
+  gem "rspec-rails", "~> 8.0"
+
   # Audits gems for known security defects (use config/bundler-audit.yml to ignore issues)
   gem "bundler-audit", require: false
 
@@ -58,3 +61,12 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
+
+gem "pry", "~> 0.16.0"
+
+# !!!Bootstrap для фронтенда!!!
+gem "bootstrap", "~> 5.3"
+
+#!! Slim для шаблонов!!
+gem "slim-rails", "~> 4.0"
+gem "dartsass-rails"
