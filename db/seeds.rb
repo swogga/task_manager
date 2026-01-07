@@ -25,4 +25,3 @@ Task.create!(title: "Купить продукты", description: "Молоко,
 Task.create!(title: "Сходить в спортзал", description: "Тренировка на ноги", status: "done", user: user2)
 
 puts "Seed данные загружены: #{User.count} пользователей, #{Task.count} задач."
-

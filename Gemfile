@@ -67,6 +67,6 @@ gem "pry", "~> 0.16.0"
 # !!!Bootstrap для фронтенда!!!
 gem "bootstrap", "~> 5.3"
 
-#!! Slim для шаблонов!!
+# !! Slim для шаблонов!!
 gem "slim-rails", "~> 4.0"
 gem "dartsass-rails"
