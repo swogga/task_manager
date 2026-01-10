@@ -8,7 +8,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-# Очистим таблицы перед созданием (чтобы не было дублей)
+# Очистим таблицы перед созданием (чтобы не было дубликатов)
 User.destroy_all
 Task.destroy_all
 
